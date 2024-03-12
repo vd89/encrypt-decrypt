@@ -1,0 +1,10 @@
+{
+  "name": "encrypt-decrypt",
+  "version": "1.0.0",
+  "description": "Encryption and decryption API with node ",
+  "main": "index.js",
+  "repository": "git@github.com:vd89/encrypt-decrypt.git",
+  "author": "vd89 <dixitvora@gmail.com>",
+  "license": "yes",
+  "private": false
+}
