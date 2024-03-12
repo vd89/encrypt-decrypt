@@ -4,7 +4,6 @@ import debug from 'debug'
 
 const indexDebug = debug('app:index ->')
 const { port } = appConfig
-
 ;(async () => {
   app.listen(port, () => {
     try {
