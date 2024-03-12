@@ -6,9 +6,9 @@ build/
 dist/
 out/
 
-# Dependency lock files
-package-lock.json
-yarn.lock
+# # Dependency lock files
+# package-lock.json
+# yarn.lock
 
 # Environment variables
 .env
@@ -32,9 +32,9 @@ npm-debug.log
 # Husky hooks (only if not using built-in pre-commit hooks)
 .husky/
 
-# Compiled TypeScript files (if using TypeScript)
-*.js
-*.d.ts
+# # Compiled TypeScript files (if using TypeScript)
+# *.js
+# *.d.ts
 
 # BrowserSync ignore (if using BrowserSync)
 .browserSync/
