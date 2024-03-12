@@ -1,0 +1,40 @@
+# Node.js modules
+node_modules/
+
+# Build output (if applicable)
+build/
+dist/
+out/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production  # Add other specific environment files if needed
+
+# Testing coverage reports
+coverage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+npm-debug.log
+
+# Husky hooks (only if not using built-in pre-commit hooks)
+.husky/
+
+# Compiled TypeScript files (if using TypeScript)
+*.js
+*.d.ts
+
+# BrowserSync ignore (if using BrowserSync)
+.browserSync/
