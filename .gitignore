@@ -30,7 +30,7 @@ coverage/
 npm-debug.log
 
 # Husky hooks (only if not using built-in pre-commit hooks)
-.husky/
+# .husky/
 
 # # Compiled TypeScript files (if using TypeScript)
 # *.js
