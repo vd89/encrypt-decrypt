@@ -1,7 +1,9 @@
+import debug from 'debug'
 import express from 'express'
 import helmet from 'helmet'
 import morgan from 'morgan'
 
+const appLog = debug('app:app ->')
 const app = express()
 
 app.use(express.json())
@@ -17,9 +19,10 @@ app.get('/health-check', (req, res, next) => {
       testDetails: 'the Server is working',
       time: date.toUTCString(),
     }
+    appLog('test')
     return res.json({ message: 'SUCCESS', data: testData })
   } catch (e) {
-    // appLog(e.message)
+    appLog(e.message)
     next(e)
   }
 })
