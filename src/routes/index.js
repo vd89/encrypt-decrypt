@@ -1,8 +1,9 @@
 import { Router } from 'express'
-import { healthCheck } from '../controller/index.js'
+import ApiController from '../controller/index.js'
 
 const apiRouters = new Router()
+const apiCtrl = new ApiController()
 
-apiRouters.get('/v1/health-check', healthCheck)
+apiRouters.get('/v1/health-check', apiCtrl.healthCheck)
 
 export default apiRouters
